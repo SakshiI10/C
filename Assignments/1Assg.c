@@ -4,5 +4,6 @@ int main(){
     printf("Enter alphabet: ");
     scanf("%c",&ch);
     printf("ASCII value is=%d",ch);
+    printf("ASCII value is=%d",ch);
     return 0;
 }
