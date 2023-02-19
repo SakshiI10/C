@@ -1,11 +1,14 @@
+//**
 #include<stdio.h>
 int main(){
     int a[5]={1,2,3,4,5};
     int i;
     for (i = 0; i < 5; i++)
     {
-        if ((char)a[i]=='5')
+        if ((char)a[i]=='5'){
             printf("%d\n",a[i]);
+            printf("a");
+        }
         else
             printf("FAIL\n");
     }
