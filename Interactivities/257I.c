@@ -1,6 +1,14 @@
 #include<stdio.h>
+#include<stdlib.h>
+
 int main(){
-    int a=250;
-    printf("%d\n", a);
+    unsigned char;
+    FILE *fp;
+    fp=fopen("trial", "r");
+    if(!fp){
+        printf("Unable to open a file");
+        exit(1);
+    }
+    fclose(fp);
     return 0;
 }
