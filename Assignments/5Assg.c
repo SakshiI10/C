@@ -1,3 +1,5 @@
+//Write a C program to input temperature in Fahrenheit and convert it into degree Celcius
+
 #include<stdio.h>
 int main(){
     float c, f;

@@ -1,3 +1,5 @@
+//Write a C program using if...else to check whether a number entered by the user is even or odd.
+
 #include<stdio.h>
 int main(){
     int stud[4][2];

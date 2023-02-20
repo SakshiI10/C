@@ -1,3 +1,5 @@
+//Write 2 programs using 2 technique to swap 2 numbers.
+
 #include<stdio.h>
 // int main(){
 //     int a, b, c;

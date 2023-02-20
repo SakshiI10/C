@@ -1,3 +1,5 @@
+//Write a program to input marks of 5 subjects of a student and calculate total, average and percentage of all subjects.
+
 #include<stdio.h>
 int main(){
     int s1, s2, s3, s4, s5, tot, avg, per;

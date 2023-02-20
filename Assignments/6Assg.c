@@ -1,3 +1,5 @@
+//Calculate Compound interest.
+
 #include<stdio.h>
 #include<math.h>
 int main(){

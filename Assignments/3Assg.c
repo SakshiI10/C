@@ -1,3 +1,5 @@
+//Write a C program to take input number of days from the user and converts it into years, weeks and days.
+
 #include <stdio.h>
 int main()
 {
