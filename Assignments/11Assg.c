@@ -1,0 +1,1 @@
+//Write a C program to display factors of a number.
