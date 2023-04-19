@@ -8,17 +8,17 @@ void main(){
 }
 
 //Ques_22:
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int x = 22;
     if (x = 10)
     printf("TRUE");
     else
     printf("FALSE");
-}
+} */
 
 //Ques_23:
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     char val = 1;
     if (val--==0)
@@ -27,10 +27,10 @@ int main(){
         printf("FALSE");
     val-=0;
     printf("%d\n", val);
-}
+} */
 
 //Ques_24:
-#include<stdio.h>
+/* #include<stdio.h>
 int main()
 {
     float a = 10.5;
@@ -59,20 +59,20 @@ int main()
     printf("Not matched!!!");
 
     printf("\n");
-}
+} */
 
 //Ques_25:
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     if ((-100 && 100) || (20 && -20))
         printf("%s","Condition is true.");
     else
         printf("%s","Condition is false.");
     return 0;
-}
+} */
 
 //Ques_26:
-#include<stdio.h>
+/* #include<stdio.h>
 #define TRUE 1
 int main(){
     if(TRUE){
@@ -84,10 +84,10 @@ int main(){
         printf("4");
     }
     return 0;
-}
+} */
 
 //Ques_27:
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int pn=100;
     if(pn>20)
@@ -96,10 +96,10 @@ int main(){
     else
         printf("Hiiiii");
     return 0;
-}
+} */
 
 //Ques_29:
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int a = 10;
     if(10L == a)
@@ -109,10 +109,10 @@ int main(){
     else
         printf("0");
     return 0;
-}
+} */
 
 //Ques_30:
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int x = 1;
     if(x--)
@@ -122,4 +122,4 @@ void main(){
     }
     else
         printf("The Shawshant Redemption");
-}
+} */
