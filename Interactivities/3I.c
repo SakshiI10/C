@@ -11,7 +11,7 @@ void main(){
 }
 
 //Ques_32
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int a = 100;
     if(a>10)
@@ -20,29 +20,29 @@ void main(){
         printf("B");
     else
         printf("C");
-}
+} */
 
 //Ques_33
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int x=-1, y=-1;
     if(++x=++y)
         printf("A");
     else
         printf("B");
-}
+} */
 
 //Ques_34
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     if(sizeof(void))
         printf("A");
     else
         printf("B");
-}
+} */
 
 //Ques_35
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int m=5,n=10,q=20;
     if(q/n*m){
@@ -52,49 +52,48 @@ void main(){
     else
         printf("B");
         printf("C");
-}
+} */
 
 //Ques_36
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     if(!printf("A"))
     if(printf("B"));
-}
+} */
 
 //Ques_37
-//**
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     if("ABC")printf("A\n");
     if(-1)printf("B\n");
     if(.92L)printf("C\n");
     if(0)printf("D\n");
     if('W')printf("E\n");
-}
+} */
 
 //Ques_38
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int a = 10;
     if(printf("%d", a>=10)-10)
         for(;;)
             break;
     else;
-}
+} */
 
 //Ques_39
 //**
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int a=5, b=10;
     if(++a||++b)
         printf("%d %d", a, b);
     else
         printf("A");
-}
+} */
 
 //Ques_40
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     static int i;
     for(;;)
@@ -102,4 +101,4 @@ void main(){
         printf("A");
     else
         break;
-}
+} */

@@ -1,5 +1,4 @@
 //Ques_51
-//**
 #include<stdio.h>
 void main(){
     char cnt = 0;
@@ -8,7 +7,7 @@ void main(){
 }
 
 //Ques_52
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int tally = 0;
     for(;;)
@@ -17,10 +16,10 @@ int main(){
         break;
         printf("%d ", ++tally);
     }
-}
+} */
 
 //Ques_53
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int tally = 0;
     for(tally=0; tally<12; ++tally)
@@ -30,10 +29,10 @@ int main(){
         continue;;
         printf("%d ", tally);
     }
-}
+} */
 
 //Ques_54
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int i, j, charVal='A';
     for(i=5; i>=1; i--)
@@ -42,7 +41,7 @@ void main(){
             printf("%c", (charVal+j));
         printf("\n");
     }
-}
+} */
 
 //Ques_55
 #include<stdio.h>
