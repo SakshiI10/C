@@ -14,7 +14,7 @@ void main(){
 }
 
 //Ques_72
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int ch;
     printf("Enter a value btw 1 and 2: ");
@@ -28,10 +28,10 @@ void main(){
         printf("2\n");
         break;
     }
-}
+} */
 
 //Ques_73
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     switch(printf("Do\n"))
     {
@@ -45,10 +45,10 @@ int main(){
         printf("Default\n");
         break;
     }
-}
+} */
 
 //Ques_74
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     printf("%d", 1);
     goto l1;
@@ -56,10 +56,10 @@ int main(){
     l1:goto l2;
     printf("%d", 3);
     l2:printf("%d", 4);
-}
+} */
 
 //Ques_75
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int i=0, j=0;
     l1: while(i<2)
@@ -71,10 +71,10 @@ int main(){
             goto l1;
         }
     }
-}
+} */
 
 //Ques_76
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int i=0;
     if(i==0)
@@ -82,10 +82,10 @@ void main(){
         goto label;
     }
     label: printf("Hello");
-}
+} */
 
 //Ques_77
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int i=0,k;
     if(i==0)
@@ -95,11 +95,11 @@ int main(){
             printf("Hi\n");
             label: k=printf("%03d",i);
         }
-}
+} */
 
 //Ques_78
 //**
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int i=5, k;
     if(i==0)
@@ -107,10 +107,10 @@ void main(){
         label: printf("%d\n", i);
         printf("Hey");
     
-}
+} */
 
 //Ques_79
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int check=2;
     switch (check)
@@ -120,10 +120,10 @@ void main(){
     case 3: printf("C");
     default: printf("D");
     }
-}
+} */
 
 //Ques_80
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int movie=1;
     switch (movie<<2+movie)
@@ -133,4 +133,4 @@ void main(){
     case 2: printf("B");
     case 3: printf("C");
     }
-}
+} */
