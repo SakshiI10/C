@@ -18,7 +18,7 @@ void main(){
 
 //Ques_82
 //**
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     switch(*(1+"AB" "CD"+1)){
         case 'A': printf("A");
@@ -29,10 +29,10 @@ void main(){
         break;
         case 'D': printf("D");
     }
-}
+} */
 
 //Ques_83
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int c=280;
     switch(c){
@@ -42,10 +42,10 @@ int main(){
         default: printf("D");
         printf("End");
     }
-}
+} */
 
 //Ques_84
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     static int i;
     int j;
@@ -60,10 +60,10 @@ void main(){
         continue;
     }
     printf("%d",i);
-}
+} */
 
 //Ques_85
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int sum=0;
     for(int i=0; i<=10; i++){
@@ -74,10 +74,10 @@ int main(){
     }
     addition: printf("%d\n", sum);
     return 0;
-}
+} */
 
 //Ques_86
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int i;
     for(i=0; i<10; i++){
@@ -88,10 +88,10 @@ int main(){
         printf("%d", i);
     }
     HAI: printf("\nNow, we are inside label name \"hai\"\n");
-}
+} */
 
 //Ques_88
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int i=1;
     switch(i)
@@ -100,10 +100,10 @@ int main(){
         default: printf("Bye");
     }
     return 0;
-}
+} */
 
 //Ques_89
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int i=65;
     char ch='B';
@@ -114,11 +114,11 @@ void main(){
         break;
         default: printf("Bye");
     }
-}
+} */
 
 //Ques_90
 //**
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int i=1;
     i++;
@@ -132,4 +132,4 @@ int main(){
         break;
     }
     return 0;
-}
+} */

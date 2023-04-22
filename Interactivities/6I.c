@@ -9,7 +9,7 @@ void main(){
 }
 
 //Ques_62
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int i = 0;
     while(i<10)
@@ -21,11 +21,10 @@ void main(){
             printf("Hello %d abc\n",i);
         }
     }
-}
+} */
 
 //Ques_63
-//**
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int i=0, j=0;
     while(i<5, j<10)
@@ -35,9 +34,9 @@ int main(){
     }
     printf("%d, %d\n", i, j);
 }
-
+ */
 //Ques_64
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int a=0, i=0, b;
     for(i=0; i<5; i++)
@@ -47,10 +46,10 @@ int main(){
     }
     printf("Hi%d ",i);
     return 0;
-}
+} */
 
 //Ques_65
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int a=0, i=0, b;
     for(i=0; i<5; i++)
@@ -61,10 +60,10 @@ int main(){
     }
     printf("Hi%d ",a);
     return 0;
-}
+} */
 
 //Ques_66
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int i=0, j=0;
     for(i=0; i<5; i++)
@@ -76,10 +75,10 @@ void main(){
         }
         printf("Hi %i\n", i);
     }
-}
+} */
 
 //Ques_67
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int i=0, j=0;
     for(i; i<2; i++)
@@ -92,11 +91,11 @@ int main(){
         printf("2\n");
     }
     printf("after loop\n");
-}   
+}  */  
 
 //Ques_68
 //**
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     static int i;
     for(i++; ++i; i++)
@@ -106,10 +105,11 @@ int main(){
         break;
     }
     return 0;
-}
+} */
 
 //Ques_69
-#include<stdio.h>
+//*
+/* #include<stdio.h>
 int main(){
     int fun={
         printf("C for loop\n")
@@ -120,11 +120,11 @@ int main(){
         printf("%x ", x);
     }
     return 0;
-}
+} */
 
 //Ques_70
 //**
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int i = 0;
     for(i=0; i==0; i++)
@@ -132,4 +132,4 @@ int main(){
         printf("%d", i);
     }
     return 0;
-}
+} */

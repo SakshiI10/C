@@ -44,31 +44,31 @@ void main(){
 } */
 
 //Ques_55
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     double k = 0;
     for (k=0.0; k<3.0; k++)
         printf("Hello\n");
-}
+} */
 
 //Ques_56
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     double k = 0;
     for (k=0.0; k<3.0; k++)
         printf("%lf\n",k);
-}
+} */
 
 //Ques_57
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int k;
     for (k=-3; k<-5; k++)
         printf("Hello\n");
-}
+} */
 
 //Ques_58
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int i = 0;
     do{
@@ -76,24 +76,23 @@ int main(){
         printf("in while loop: %d \n",i);
     }while(i<3);        //It will run till value of i becomes 3
     printf("Hi");
-}
+} */
 
 //Ques_59
-//**
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int i = 0;
     while(i<3)
     i++;
     printf("in while loop: %d\n", i);
-}
+} */
 
 //Ques_60
-#include<stdio.h>
+/* #include<stdio.h>
 void main(){
     int i = 0;
     while(++i)
     {
         printf("H");
     }
-}
+} */

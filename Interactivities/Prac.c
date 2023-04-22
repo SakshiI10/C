@@ -1,10 +1,15 @@
 #include<stdio.h>
-void main(){
-    int i, j, charVal='A';
-    for(i=5; i>=1; i--)
+int main(){
+    int i=1;
+    i++;
+    switch(i--)
     {
-        for(j=0; j<i; j++)
-            printf("%c", (charVal+j));
-        printf("\n");
+        case 1: printf("1");
+        break;
+        case 2: printf("2");
+        break;
+        default: printf("D");
+        break;
     }
+    return 0;
 }
