@@ -7,7 +7,7 @@ int main(){
 }
 
 //Ques_104
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int fun();
     int i;
@@ -18,10 +18,10 @@ int main(){
 int fun()
 {
     _AX=1990;
-}
+} */
 
 //Ques_105
-#include<stdio.h>
+/* #include<stdio.h>
 void fun(int*, int*);
 int main(){
     int i=5, j=2;
@@ -33,10 +33,10 @@ void fun(int*i, int*j)
 {
     *i=*i**i;
     *j=*j**j;
-}
+} */
 
 //Ques_106
-#include<stdio.h>
+/* #include<stdio.h>
 int i;
 int fun();
 int main(){
@@ -52,10 +52,10 @@ int main(){
 int fun()
 {
     printf("Hi");
-}
+} */
 
 //Ques_107
-#include<stdio.h>
+/* #include<stdio.h>
 int reverse(int);
 int main(){
     int no=5;
@@ -70,10 +70,10 @@ int reverse(int no)
         printf("%d", no);
         printf("Hello");
         reverse(no--);
-}
+} */
 
 //Ques_108
-#include<stdio.h>
+/* #include<stdio.h>
 void fun(int);
 typedef int(*pf) (int, int);
 int proc(pf, int, int);
@@ -90,10 +90,10 @@ void fun(int n)
         printf("%d ", n);
         fun(--n);
     }
-}
+} */
 
 //Ques_109
-#include<stdio.h>
+/* #include<stdio.h>
 int sumdig(int);
 int main(){
     int a, b;
@@ -114,10 +114,10 @@ int sumdig(int n)
     else
     return 0;
     return s;
-}
+} */
 
 //Ques_110
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     void fun(char*);
     char a[100];
@@ -132,4 +132,4 @@ void fun(char*a)
     printf("%c ", *a);
     a++;
     printf("%c", *a);
-}
+} */

@@ -1,13 +1,8 @@
 #include<stdio.h>
+#define SWAP (a, b, c)(c t; t=a, a=b, b=t)
 int main(){
-    int x;
-    for(x=-1; x<=10; x++)
-    {
-        if(x<5)
-            continue;
-        else
-            break;
-        printf("OKCL\n");
-    }
+    int x=10, y=20;
+    SWAP(x, y, int);
+    printf("%d %d\n", x, y);
     return 0;
 }

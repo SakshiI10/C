@@ -11,16 +11,16 @@ int main(){
 }
 
 //Ques_121
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int y=128;
     const int x=y;
     printf("%d\n", x);
     return 0;
-}
+} */
 
 //Ques_122
-#include<stdio.h>
+/* #include<stdio.h>
 #include<stdlib.h>
 union employee{
     char name[15];
@@ -32,10 +32,10 @@ int main(){
     strcpy(e1.name, "K");
     printf("%s %d %f", e1.name, e1.age, e1.salary);
     return 0;
-}
+} */
 
 //Ques_123
-#include<stdio.h>
+/* #include<stdio.h>
 int fun(int**ptr);
 int main(){
     int i=10;
@@ -50,10 +50,10 @@ int fun(int**ptr){
     const *ptr=temp;
     printf("After changing ptr=%5x\n", *ptr);
     return 0;
-}
+} */
 
 //Ques_124
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     const int x=5;
     const int *ptrx;
@@ -61,10 +61,10 @@ int main(){
     *ptrx=10;
     printf("%d\n", x);
     return 0;
-}
+} */
 
 //Ques_125
-#include<stdio.h>
+/* #include<stdio.h>
 int fun(int**ptr);
 int main(){
     int i=10, j=20;
@@ -75,10 +75,10 @@ int main(){
     printf("j=%5X\n", ptr);
     printf("ptr=%d\n", *ptr);
     return 0;
-}
+} */
 
 //Ques_126
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     const char *s="";
     char str[]="Hello";
@@ -86,10 +86,10 @@ int main(){
     while(*s)
         printf("%c", *s++);
     return 0;
-} 
+}  */
 
 //Ques_127
-#include<stdio.h>
+/* #include<stdio.h>
 int get();
 int main(){
     const int x=get();
@@ -98,10 +98,10 @@ int main(){
 }
 int get(){
     return 20;
-}
+} */
 
 //Ques_128
-#include<stdio.h>
+/* #include<stdio.h>
 int fun(int*f){
     *f=10;
     return 0;
@@ -112,21 +112,21 @@ int main(){
     fun(&arr[3]);
     printf("After modification arr[3]=%d", arr[3]);
     return 0;
-}
+} */
 
 //Ques_129
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     const int i=0;
     printf("%d\n", i++);
     return 0;
-}
+} */
 
 //Ques_130
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     const int c=-11;
     const int d=34;
     printf("%d, %d\n", c, d);
     return 0;
-}
+} */
