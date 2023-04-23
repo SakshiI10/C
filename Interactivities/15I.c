@@ -8,7 +8,7 @@ int main(){
 }
 
 //Ques_164
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     int a[5]={5, 1, 15,20, 25};
     int i, j, m, n;
@@ -18,10 +18,10 @@ int main(){
     n=a[4];
     printf("%d, %d, %d, %d", i, j, m, n);
     return 0;
-}
+} */
 
 //Ques_165
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     static int a[2][2]={1, 2, 3, 4};
     int i, j;
@@ -34,10 +34,10 @@ int main(){
         }
     }
     return 0;
-}
+} */
 
 //Ques_166
-#include <stdio.h>
+/* #include <stdio.h>
 int main()
 {
     void fun(int, int[]);
@@ -55,5 +55,5 @@ void fun(int n, int arr[])
     while(i++<n)
         p=&arr[i];
     *p=0;
-}
+} */
 
