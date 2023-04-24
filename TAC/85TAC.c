@@ -15,12 +15,12 @@ void fun1(int num,...)
     va_list ptr;
     va_start(ptr, num);
     str=va_arg(ptr, char*);
-    printf("%s", str);
+    printf("%s ", str);
 }
 void fun2(int num, ...)
 {
     va_list ptr;
     va_start(ptr, num);
     num=va_arg(ptr, int);
-    printf("%d", num);
+    printf("%d ", num);
 }

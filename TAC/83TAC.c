@@ -14,7 +14,7 @@ void dumplist(int n,...)
     while(n-->0)
     {
         i=va_arg(p, int);
-        printf("%d", i);
+        printf("%d ", i);
     }
     va_end(p);
     printf("\n");
