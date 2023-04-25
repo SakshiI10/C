@@ -16,9 +16,9 @@
 
 int main(){
     int a, b, c;
-    printf("Enter a number=");
+    printf("Enter a number = ");
     scanf("%d",&a);
-    printf("Enter sec number=");
+    printf("Enter sec number = ");
     scanf("%d",&b);
     a=a+b;
     b=a-b;

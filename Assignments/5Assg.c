@@ -8,7 +8,6 @@ int main(){
 
     c=(f-32)/1.8;
     printf("Temperature in Celcius: %f", c);
-    printf("Temperature in Celcius: %f", c);
 
     return 0;
 }

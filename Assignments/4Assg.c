@@ -3,7 +3,8 @@
 #include <stdio.h>
 int main()
 {
-    int s1, s2, s3, s4, s5, tot, avg, per;
+    int s1, s2, s3, s4, s5, tot;
+    float avg, per;
     printf("Enter marks of subject 1: ");
     scanf("%d", &s1);
     printf("Enter marks of subject 2: ");
@@ -18,11 +19,11 @@ int main()
     tot = s1 + s2 + s3 + s4 + s5;
     printf("TOTAL: %d\n", tot);
 
-    avg = tot / 5;
-    printf("AVERAGE: %d\n", avg);
+    avg = tot / (float)150;
+    printf("AVERAGE: %f\n", avg);
 
-    per = avg * 10;
-    printf("PERCENTAGE: %d\n", per);
+    per = avg * 100;
+    printf("PERCENTAGE: %f\n", per);
 
     return 0;
 }
