@@ -1,0 +1,1 @@
+//Write a C program to read weekday number and print weekday name using switch?
