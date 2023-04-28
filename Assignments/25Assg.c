@@ -1,4 +1,4 @@
-// Write a C program to display prime numbers between intervals using functions.
+// Write a C program to display prime numbers between intervals using functions.*
 
 #include <stdio.h>
 int main()
@@ -6,7 +6,7 @@ int main()
    int number1, number2, i, j, flag;
    printf("enter the two intervals:");
    scanf("%d %d", &number1, &number2);
-   printf("prime no’s present in between %d and %d: ", number1, number2);
+   printf("prime no’s present in between %d and %d are: ", number1, number2);
    for (i = number1 + 1; i < number2; i++)
    { // interval between two numbers
       flag = 0;
