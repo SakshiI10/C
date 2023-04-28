@@ -1,6 +1,8 @@
-//Write a C program to read weekday number and print weekday name using switch?
-#include<stdio.h>
-int main(){
+// Write a C program to read weekday number and print weekday name using switch?
+
+#include <stdio.h>
+int main()
+{
     int n;
     printf("Enter number between 1 and 7: ");
     scanf("%d", &n);
