@@ -1,0 +1,1 @@
+// Write a C Program to calculate area of circle using a function like macro circleArea?

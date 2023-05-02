@@ -1,0 +1,1 @@
+//Write a C Program to access elements of an array using pointer.

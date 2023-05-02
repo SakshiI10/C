@@ -1,0 +1,1 @@
+//Write a C program to calculate sum of the array elements using pointer.

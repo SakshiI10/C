@@ -1,0 +1,1 @@
+//Write a C Program to calculate average using arrays?
