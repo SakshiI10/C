@@ -3,13 +3,13 @@
 #include <stdio.h>
 int main() {
    int array[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
-   int sum=0, loop;
+   int sum=0, i;
    float avg=0;
 
-   for(loop = 0; loop < 10; loop++) {
-      sum = sum + array[loop];
+   for(i = 0; i < 10; i++) {
+      sum = sum + array[i];
    }
-   avg = (float)sum / loop;
+   avg = (float)sum / i;
    printf("Average of array values is %.2f", avg);   
    return 0;
 }
