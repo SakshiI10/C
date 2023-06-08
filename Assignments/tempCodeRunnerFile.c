@@ -1,4 +1,3 @@
-if (j == c - 1)
-      {
-        printf("\n\n");
-      }
+if(currentsum=sum){
+                printf("%d ",arr[j]);
+            }

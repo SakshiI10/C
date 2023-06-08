@@ -21,6 +21,10 @@
         "21I.C": "cpp",
         "22I.C": "cpp",
         "23I.C": "cpp",
-        "10aSSG.C": "cpp"
+        "10aSSG.C": "cpp",
+        "initializer_list": "c",
+        "type_traits": "c",
+        "xstring": "c",
+        "xutility": "c"
     }
 }
