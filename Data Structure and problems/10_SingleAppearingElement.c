@@ -1,4 +1,4 @@
-// Find the element that appears once in Array where every other element appears twice.
+// Find element that appears once in Array where every other element appears twice.
 
 #include <stdio.h>
 int main()
@@ -20,7 +20,7 @@ int main()
             if (arr[i] == arr[j])
                 count++;
         }
-        if (count== 1)
+        if (count == 1)
             printf("%d ", arr[i]);
     }
     return 0;
